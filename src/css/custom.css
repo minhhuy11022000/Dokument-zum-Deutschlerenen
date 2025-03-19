@@ -5,26 +5,39 @@
  */
 
 /* You can override the default Infima variables here. */
+/* 🌞 Light Mode (Softer Tones) */
 :root {
-  --ifm-color-primary: #2e8555;
-  --ifm-color-primary-dark: #29784c;
-  --ifm-color-primary-darker: #277148;
-  --ifm-color-primary-darkest: #205d3b;
-  --ifm-color-primary-light: #33925d;
-  --ifm-color-primary-lighter: #359962;
-  --ifm-color-primary-lightest: #3cad6e;
+  --ifm-color-primary: #d6725e; /* Muted Coral Red */
+  --ifm-color-primary-dark: #c0604d; /* Slightly deeper muted red */
+  --ifm-color-primary-darker: #a84f3e; /* Even deeper muted red */
+  --ifm-color-primary-darkest: #8f3e2d; /* Soft burnt red */
+  --ifm-color-primary-light: #e89d8a; /* Light coral */
+  --ifm-color-primary-lighter: #f2b7a3; /* Pastel coral */
+  --ifm-color-primary-lightest: #f9d1c1; /* Softest peach */
+
+  --ifm-background-color: #f4ece7; /* Soft warm beige (less dazzling) */
+  --ifm-navbar-background-color: #e5d4cb; /* Very light grayish beige */
+  --ifm-navbar-link-color: #2e1f1b; /* Dark brown (better contrast) */
+  --ifm-navbar-link-hover-color: #d6725e; /* Muted Coral Hover */
+
   --ifm-code-font-size: 95%;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.03);
 }
 
-/* For readability concerns, you should choose a lighter palette in dark mode. */
+/* 🌙 Dark Mode (Smoother Contrast) */
 [data-theme='dark'] {
-  --ifm-color-primary: #25c2a0;
-  --ifm-color-primary-dark: #21af90;
-  --ifm-color-primary-darker: #1fa588;
-  --ifm-color-primary-darkest: #1a8870;
-  --ifm-color-primary-light: #29d5b0;
-  --ifm-color-primary-lighter: #32d8b4;
-  --ifm-color-primary-lightest: #4fddbf;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+  --ifm-color-primary: #d9a18b; /* Softer warm beige-red */
+  --ifm-color-primary-dark: #c48a75; /* Muted warm brown */
+  --ifm-color-primary-darker: #a56e5d; /* Deeper brown */
+  --ifm-color-primary-darkest: #86584b; /* Even softer contrast */
+  --ifm-color-primary-light: #e5b8a1; /* Pastel peach */
+  --ifm-color-primary-lighter: #f2cbb9; /* Lightest coral-beige */
+  --ifm-color-primary-lightest: #fae0d4; /* Softest warm peach */
+
+  --ifm-background-color: #181210; /* Dark brownish-gray (less contrast) */
+  --ifm-navbar-background-color: #211a18; /* Dark muted brown */
+  --ifm-navbar-link-color: #d9c2b9; /* Muted beige (softer on eyes) */
+  --ifm-navbar-link-hover-color: #d6725e; /* Warm muted coral hover */
+
+  --docusaurus-highlighted-code-line-bg: rgba(255, 255, 255, 0.06);
 }
