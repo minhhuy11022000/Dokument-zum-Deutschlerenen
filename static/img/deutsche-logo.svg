@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink"
+  width="94" height="94" viewBox="0 0 94 94">
+  <rect width="100%" height="100%" fill="transparent"></rect>
+  <circle r="59.32" fill="#d6725e" transform="translate(47 47)scale(.7759)"></circle>
+  <path fill="#faecdc"
+    d="M49.74 44.76q0 8.62-4.99 13.88-5 5.25-13.37 5.25h-7.44v-35.7h9.03q7.59 0 12.18 4.64t4.59 11.93m-4.13-.4q0-6.02-3.67-9.44t-8.77-3.42h-5.1v29.07h3.77q5.77 0 9.77-4.33 4-4.34 4-11.88"
+    paint-order="stroke"></path>
+  <rect width="25.8" height="35.7" x="-12.9" y="-17.85" fill="none" rx="0" ry="0"
+    transform="translate(37.34 46.54)"></rect>
+  <path fill="#faecdc" d="M76.21 28.19v3.31H60.76v11.33h14.23v3.41H60.76v17.65h-3.82v-35.7Z"
+    paint-order="stroke"></path>
+  <rect width="19.27" height="35.7" x="-9.63" y="-17.85" fill="none" rx="0" ry="0"
+    transform="translate(67.08 46.54)"></rect>
+</svg>
