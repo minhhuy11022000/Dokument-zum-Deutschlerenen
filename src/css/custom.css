@@ -22,6 +22,14 @@
 
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.03);
+
+  /* Bestimmt Artikel - light */
+  /* --color-der-light: #aec6cf;
+  --color-die-light: #b5e7a0;
+  --color-das-light: #fad0c9; */
+  --color-der-light: #1e90ff; /* Dodger Blue */
+  --color-das-light: #669f5c; /* Olive Drab */
+  --color-die-light: #ed85c0; /* Pastel Pink */
 }
 
 /* 🌙 Dark Mode (Smoother Contrast) */
@@ -40,6 +48,11 @@
   --ifm-navbar-link-hover-color: #d6725e; /* Warm muted coral hover */
 
   --docusaurus-highlighted-code-line-bg: rgba(255, 255, 255, 0.06);
+
+  /* Bestimmt Artikel - dark */
+  --color-der-dark: #1e90ff; /* Dodger Blue */
+  --color-das-dark: #8ad669; /* Light Green */
+  --color-die-dark: #fad0c9; /* Pastel Coral */
 }
 
 .navbar__title {
